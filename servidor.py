@@ -36,4 +36,5 @@ def inserir_novo_usuario(matricula, nome, senha):
 
 
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
