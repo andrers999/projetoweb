@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeArmazém</title>
+    <link rel="stylesheet" href="../static/estilo.css">
+</head>
+    <body>
+        <h1>Armazém</h1>
+
+        <div class= "exemplo">
+            <h2>Pagina do usuário</h2>
+
+        </div>
+
+        <div class="pai">
+            <div class="turma">
+                <a> Adicione produtos.</a>
+                <br><br>
+
+            </div>
+
+            <div class="novousuario">
+
+                <div>
+                    <form action="/inserirnovoproduto" method="post">
+                        <a><b>Cadastrar novo Produto</b></a>
+                        <hr>
+                        <label>Nome</label> <br>
+                        <input type="text" name="nome">
+                        <br>
+                        <label>Preço</label> <br>
+                        <input type="text" name="preco">
+                        <br>
+                        <label>Id</label> <br>
+                        <input type="text" name="id">
+                        <br>
+                        <label>Quantidade</label> <br>
+                        <input type="text" name="quantidade">
+                        <br>
+                        <label>Validade</label> <br>
+                        <input type="text" name="validade">
+                        <br><br>
+                        <button onclick="entrar()" type="submit"> Cadastrar </button>
+                        <p id="mensagem">{{mensagem}} </p>
+git init
+                    </form>
+                </div>
+
+                <div>
+                    <form action="/removerproduto" method="post">
+                        <a><b>Remover produto</b></a>
+                        <hr>
+                        <label>Digite o id do produto que deseja remover </label> <br>
+                        <input type="text" name="nome">
+                        <br> <br>
+                        <button onclick="entrar()" type="submit"> Remover </button>
+                        <p id="mensagem1">{{mensagem}} </p>
+
+                    </form>
+                </div>
+
+                <div>
+
+                    <form action="/atualizarprodutos" method="post">
+                        <a><b>Atualizar lista de produtos</b></a>
+                        <hr>
+                        <p>Clique no botão abaixo para atualizar a lista de produtos</p>
+                        <button onclick="entrar()" type="submit"> Atualizar </button>
+                        <p id="mensagem2">{{mensagem}} </p>
+
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+    </body>
+</html>
+       

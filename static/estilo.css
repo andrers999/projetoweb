@@ -1,0 +1,409 @@
+/*-----PAGINA 1-----*/
+
+#body{
+    background-color: DarkGray;
+}
+#tit{
+    background-color: LightBlue;
+    text-align: center;
+    border-radius: 10px;
+    border: solid  5px black
+}
+#borda{
+    border-right: 2px solid black;
+    height: 780px;
+    margin: 20px;
+    margin-right: 1638px;
+}
+.tab{
+    border: solid 5px black;
+    border-radius: 10px;
+    padding: 7px 7px 7px 7px;
+    background-color: LightBlue;
+    text-align: center;
+    margin-right: 1657px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.tab2{
+    float: left;
+    border: solid 5px black;
+    border-radius: 10px;
+    padding: 7px 7px 7px 7px;
+    background-color: LightBlue;
+    text-align: center;
+
+}
+.botao{
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor do texto */
+    padding: 10px 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Exibição em linha */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 8px; /* Borda arredondada */
+
+}
+
+/*-----PAGINA 2-----*/
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fonte */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Seção de boas-vindas */
+.exemplo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.exemplo h2 {
+    color: #3498db;
+    font-size: 2rem;
+}
+
+.exemplo p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+/* Container principal */
+.pai {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Formulário */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Estilo do título do formulário */
+form b {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+/* Linha divisória */
+hr {
+    border: 1px solid #ecf0f1;
+    margin: 10px 0;
+}
+
+/* Rótulos dos campos */
+label {
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Mensagem de erro/sucesso */
+p#mensagem {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+p#mensagem.success {
+    color: #2ecc71;
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Seção de login */
+.login {
+    margin-top: 30px;
+}
+
+.login form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .pai {
+        padding: 0 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .exemplo h2 {
+        font-size: 1.6rem;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+}
+
+
+/*-----PAGINA 3-----*/
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fonte */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Seção de boas-vindas */
+.exemplo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.exemplo h2 {
+    color: #3498db;
+    font-size: 2rem;
+}
+
+.exemplo p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+/* Container principal */
+.pai {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Formulário */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Estilo do título do formulário */
+form b {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+/* Linha divisória */
+hr {
+    border: 1px solid #ecf0f1;
+    margin: 10px 0;
+}
+
+/* Rótulos dos campos */
+label {
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Mensagem de erro/sucesso */
+p#mensagem {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+p#mensagem.success {
+    color: #2ecc71;
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Seção de login */
+.login {
+    margin-top: 30px;
+}
+
+.login form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .pai {
+        padding: 0 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .exemplo h2 {
+        font-size: 1.6rem;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+}
