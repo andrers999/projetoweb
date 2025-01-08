@@ -1,4 +1,3 @@
-import psycopg2
 from flask import *
 import dao
 from dao import conectardb
@@ -31,8 +30,6 @@ def inserir_novo_usuario(matricula, nome, senha):
 
     conexao.close()
     return exito
-
-#aaaaaaa
 
 
 
